@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "TVOS-LargeIconLayer-0.png",
+      "idiom" : "tv",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "com.Company",
+    "version" : 1
+  }
+}
