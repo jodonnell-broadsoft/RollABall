@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour {
 	public float speed;
 	public Text countText;
 	public Text winText;
-	public GameObject arrow;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +21,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Update(){
 		Vector3 movement = new Vector3 (0, Input.GetAxis("Horizontal"), 0);
-		arrow.transform.Rotate (movement * Time.deltaTime * speed);
+		//arrow.transform.Rotate (movement * Time.deltaTime * speed);
 	}
 
 	void FixedUpdate () {
